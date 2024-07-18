@@ -1,6 +1,5 @@
 import ReactDOM from "react-dom";
-import ViewComponent from "./components/VirtualDOM";
+import RenderComponent from "./components/SinglePageApplication";
 
 var root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<ViewComponent></ViewComponent>);
- 
+root.render(<RenderComponent></RenderComponent>);
