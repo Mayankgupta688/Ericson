@@ -1,6 +1,6 @@
 import React, { Fragment } from "react";
 
-export default function CompanyDetails(props) {
+export function CompanyDetails(props) {
     
     function iterateEmployee() {
         var newJSXArray = props.userNames.map(function(name) {

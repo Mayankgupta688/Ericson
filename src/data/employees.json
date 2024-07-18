@@ -1,0 +1,46 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Mayank",
+      "age": 10
+    },
+    {
+      "id": 3,
+      "name": "Ankit",
+      "age": 38
+    },
+    {
+      "id": 5,
+      "name": "TechnoFunnel",
+      "age": 43
+    },
+    {
+      "id": 2,
+      "name": "Ankit",
+      "age": 38
+    }
+  ],
+  "managers": [
+    {
+      "id": 10,
+      "name": "Mayank Gupta",
+      "age": 10
+    },
+    {
+      "id": 3,
+      "name": "Ankit Gupta",
+      "age": 38
+    },
+    {
+      "id": 4,
+      "name": "Varun",
+      "age": 31
+    },
+    {
+      "id": 5,
+      "name": "TechnoFunnel",
+      "age": 43
+    }
+  ]
+}
