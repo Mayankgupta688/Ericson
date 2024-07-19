@@ -10,8 +10,10 @@ export default function SinglePageApplication() {
                 
                 <input type="text"></input>
                 
+                
+                
                 <nav>
-                    <Link style={{marginLeft: "10px"}} to="/">Home</Link>
+                    <Link style={{marginLeft: "10px"}} to="/"><img src="" /></Link>
                     <Link style={{marginLeft: "10px"}} to="/help">Help</Link>
                     <Link style={{ marginLeft: "10px" }} to="/about">About</Link>
                     <Link style={{ marginLeft: "10px" }} to="/employee/1">Emp 1</Link>

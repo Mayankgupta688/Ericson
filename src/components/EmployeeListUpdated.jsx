@@ -7,7 +7,7 @@ export default function EmployeeList() {
     var [count, setCount] = useState(setTime());
     var [countData, setCountData] = useState(setTime());
     
-    function addEmployeeList() {
+    function getEmployeeList() {
         Axios.get("http://localhost:8000/employees").then((response) => {
             setEmployeeList(response.data)
         })
@@ -31,7 +31,7 @@ export default function EmployeeList() {
     });
     
     useEffect(() => {
-        addEmployeeList()
+        getEmployeeList()
         console.log("Use Effect 1");
         setInterval(() => {
             setCount(setTime())

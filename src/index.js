@@ -1,5 +1,5 @@
 import ReactDOM from "react-dom";
-import RenderComponent from "./components/SinglePageApplication";
+import ABC from "./components/EmployeeList";
 
 var root = ReactDOM.createRoot(document.getElementById("root"));
-root.render(<RenderComponent></RenderComponent>);
+root.render(<ABC></ABC>);
